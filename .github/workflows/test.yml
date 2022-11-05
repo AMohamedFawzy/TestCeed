@@ -12,11 +12,12 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    
-    - name: cppcheck-action
-      uses: deep5050/cppcheck-action@v3.0
-      with:
-        force: enable
+
+    - name: Setup Cpp Check
+      run: sudo apt-get install cppcheck
+
+    - name: Run Static Analysis
+      run: cppcheck . --force --error-exitcode=1
   test:
     runs-on: ubuntu-latest
 
