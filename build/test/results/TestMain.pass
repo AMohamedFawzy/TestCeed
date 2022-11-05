@@ -1,0 +1,18 @@
+---
+:source:
+  :path: test
+  :file: TestMain.c
+:successes:
+- :test: testMainShouldCallExecutorInitAndContinueToCallExecutorRunUntilHalted
+  :line: 14
+  :message: ''
+  :unity_test_time: 0
+:failures: []
+:ignores: []
+:counts:
+  :total: 1
+  :passed: 1
+  :failed: 0
+  :ignored: 0
+:stdout: []
+:time: 0.0010115049990417901

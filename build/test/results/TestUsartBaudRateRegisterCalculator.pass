@@ -1,0 +1,18 @@
+---
+:source:
+  :path: test
+  :file: TestUsartBaudRateRegisterCalculator.c
+:successes:
+- :test: testCalculateBaudRateRegisterSettingShouldCalculateRegisterSettingAppropriately
+  :line: 13
+  :message: ''
+  :unity_test_time: 0
+:failures: []
+:ignores: []
+:counts:
+  :total: 1
+  :passed: 1
+  :failed: 0
+  :ignored: 0
+:stdout: []
+:time: 0.0013484169976436533

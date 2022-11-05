@@ -1,0 +1,26 @@
+---
+:source:
+  :path: test
+  :file: TestAdcModel.c
+:successes:
+- :test: testDoGetSampleShouldReturn_FALSE_WhenTaskSchedulerReturns_FALSE
+  :line: 16
+  :message: ''
+  :unity_test_time: 0
+- :test: testDoGetSampleShouldReturn_TRUE_WhenTaskSchedulerReturns_TRUE
+  :line: 22
+  :message: ''
+  :unity_test_time: 0
+- :test: testProcessInputShouldDelegateToTemperatureCalculatorAndPassResultToFilter
+  :line: 28
+  :message: ''
+  :unity_test_time: 0
+:failures: []
+:ignores: []
+:counts:
+  :total: 3
+  :passed: 3
+  :failed: 0
+  :ignored: 0
+:stdout: []
+:time: 0.0011548190013854764

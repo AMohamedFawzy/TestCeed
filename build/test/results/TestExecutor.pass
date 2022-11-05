@@ -1,0 +1,22 @@
+---
+:source:
+  :path: test
+  :file: TestExecutor.c
+:successes:
+- :test: testInitShouldCallInitOfAllConductorsAndTheModel
+  :line: 18
+  :message: ''
+  :unity_test_time: 0
+- :test: testRunShouldCallRunForEachConductorAndReturnTrueAlways
+  :line: 29
+  :message: ''
+  :unity_test_time: 0
+:failures: []
+:ignores: []
+:counts:
+  :total: 2
+  :passed: 2
+  :failed: 0
+  :ignored: 0
+:stdout: []
+:time: 0.00141923599949223

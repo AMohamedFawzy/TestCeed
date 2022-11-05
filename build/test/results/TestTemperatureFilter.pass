@@ -1,0 +1,30 @@
+---
+:source:
+  :path: test
+  :file: TestTemperatureFilter.c
+:successes:
+- :test: testShouldInitializeTemeratureToInvalidValue
+  :line: 15
+  :message: ''
+  :unity_test_time: 0
+- :test: testShouldInitializeTemperatureAfterCallToInit
+  :line: 21
+  :message: ''
+  :unity_test_time: 0
+- :test: testShouldWeightEachSubsequentValueBy25PercentAfterInitialValue
+  :line: 50
+  :message: ''
+  :unity_test_time: 0
+- :test: testShouldResetAverageIfPassedInfinityOrInvalidValue
+  :line: 73
+  :message: ''
+  :unity_test_time: 0
+:failures: []
+:ignores: []
+:counts:
+  :total: 4
+  :passed: 4
+  :failed: 0
+  :ignored: 0
+:stdout: []
+:time: 0.0016393049991165753

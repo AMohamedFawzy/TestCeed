@@ -1,0 +1,77 @@
+---
+build/test/mocks/MockAdcModel.c:
+- TEST
+build/test/mocks/MockAdcHardware.c:
+- TEST
+src/AdcConductor.c:
+- TEST
+build/test/mocks/MockAdcHardwareConfigurator.c:
+- TEST
+build/test/mocks/MockAdcTemperatureSensor.c:
+- TEST
+src/AdcHardware.c:
+- TEST
+build/test/mocks/MockTaskScheduler.c:
+- TEST
+build/test/mocks/MockTemperatureCalculator.c:
+- TEST
+build/test/mocks/MockTemperatureFilter.c:
+- TEST
+src/AdcModel.c:
+- TEST
+build/test/mocks/MockModel.c:
+- TEST
+build/test/mocks/MockUsartConductor.c:
+- TEST
+build/test/mocks/MockAdcConductor.c:
+- TEST
+build/test/mocks/MockTimerConductor.c:
+- TEST
+build/test/mocks/MockIntrinsicsWrapper.c:
+- TEST
+src/Executor.c:
+- TEST
+build/test/mocks/MockExecutor.c:
+- TEST
+src/Main.c:
+- TEST
+src/Model.c:
+- TEST
+src/TaskScheduler.c:
+- TEST
+src/TemperatureCalculator.c:
+- TEST
+src/TemperatureFilter.c:
+- TEST
+build/test/mocks/MockTimerHardware.c:
+- TEST
+build/test/mocks/MockTimerModel.c:
+- TEST
+build/test/mocks/MockTimerInterruptHandler.c:
+- TEST
+src/TimerConductor.c:
+- TEST
+build/test/mocks/MockTimerConfigurator.c:
+- TEST
+src/TimerHardware.c:
+- TEST
+src/TimerModel.c:
+- TEST
+src/UsartBaudRateRegisterCalculator.c:
+- TEST
+build/test/mocks/MockUsartModel.c:
+- TEST
+build/test/mocks/MockUsartHardware.c:
+- TEST
+src/UsartConductor.c:
+- TEST
+build/test/mocks/MockUsartConfigurator.c:
+- TEST
+build/test/mocks/MockUsartPutChar.c:
+- TEST
+src/UsartHardware.c:
+- TEST
+build/test/mocks/MockUsartBaudRateRegisterCalculator.c:
+- TEST
+src/UsartModel.c:
+- TEST

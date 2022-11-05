@@ -1,0 +1,7 @@
+---
+- "/var/lib/gems/3.0.0/gems/ceedling-0.31.1/vendor/unity/src/unity.h"
+- src/Types.h
+- src/AdcModel.h
+- build/test/mocks/MockTaskScheduler.h
+- build/test/mocks/MockTemperatureCalculator.h
+- build/test/mocks/MockTemperatureFilter.h

@@ -1,0 +1,46 @@
+---
+:source:
+  :path: test
+  :file: TestAdcConductor.c
+:successes:
+- :test: testInitShouldCallHardwareInit
+  :line: 17
+  :message: ''
+  :unity_test_time: 0
+- :test: testRunShouldNotDoAnythingIfItIsNotTime
+  :line: 23
+  :message: ''
+  :unity_test_time: 0
+- :test: testRunShouldNotPassAdcResultToModelIfSampleIsNotComplete
+  :line: 30
+  :message: ''
+  :unity_test_time: 0
+- :test: testRunShouldGetLatestSampleFromAdcAndPassItToModelAndStartNewConversionWhenItIsTime
+  :line: 38
+  :message: ''
+  :unity_test_time: 0
+- :test: testJustHereToTest_Should_ProperlyPassAStructAndVerifyIt
+  :line: 49
+  :message: ''
+  :unity_test_time: 0
+- :test: test_AdcConductor_AlsoHereToTest_Should_ProperlyReturnAStructAsExpected2
+  :line: 93
+  :message: ''
+  :unity_test_time: 0
+- :test: test_AdcConductor_YetAnotherTest_Should_VerifyThatPointersToStructsAreTestable
+  :line: 104
+  :message: ''
+  :unity_test_time: 0
+:failures:
+- :test: test_AdcConductor_AlsoHereToTest_Should_ProperlyReturnAStructAsExpected1
+  :line: 90
+  :message: Expected FALSE Was TRUE
+  :unity_test_time: 0
+:ignores: []
+:counts:
+  :total: 8
+  :passed: 7
+  :failed: 1
+  :ignored: 0
+:stdout: []
+:time: 0.0011423870018916205

@@ -1,0 +1,30 @@
+---
+:source:
+  :path: test
+  :file: TestAdcHardware.c
+:successes:
+- :test: testInitShouldDelegateToConfiguratorAndTemperatureSensor
+  :line: 15
+  :message: ''
+  :unity_test_time: 0
+- :test: testGetSampleCompleteShouldReturn_FALSE_WhenTemperatureSensorSampleReadyReturns_FALSE
+  :line: 25
+  :message: ''
+  :unity_test_time: 0
+- :test: testGetSampleCompleteShouldReturn_TRUE_WhenTemperatureSensorSampleReadyReturns_TRUE
+  :line: 31
+  :message: ''
+  :unity_test_time: 0
+- :test: testGetSampleShouldDelegateToAdcTemperatureSensor
+  :line: 37
+  :message: ''
+  :unity_test_time: 0
+:failures: []
+:ignores: []
+:counts:
+  :total: 4
+  :passed: 4
+  :failed: 0
+  :ignored: 0
+:stdout: []
+:time: 0.0016521549987373874
