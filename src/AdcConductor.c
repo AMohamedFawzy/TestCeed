@@ -20,7 +20,7 @@ void AdcConductor_Run(void)
 bool AdcConductor_JustHereToTest(void)
 {
     EXAMPLE_STRUCT_T ExampleStruct;
-    ExampleStruct.x = 5;
+    ExampleStruct.x = 4;
     ExampleStruct.y = 7;
 
     return AdcModel_DoNothingExceptTestASpecialType(ExampleStruct);
