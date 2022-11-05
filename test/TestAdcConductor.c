@@ -87,7 +87,7 @@ void test_AdcConductor_AlsoHereToTest_Should_ProperlyReturnAStructAsExpected1(vo
 
     AdcModel_DoNothingExceptReturnASpecialType_ExpectAndReturn(TestStruct);
 
-    TEST_ASSERT_FALSE(AdcConductor_AlsoHereToTest());
+    TEST_ASSERT_TRUE(AdcConductor_AlsoHereToTest());
 }
 
 void test_AdcConductor_AlsoHereToTest_Should_ProperlyReturnAStructAsExpected2(void)
