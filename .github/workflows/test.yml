@@ -13,11 +13,11 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     
-    - name: Setup Cpp Check
-      run: sudo apt-get install cppcheck
-
-    - name: Run Static Analysis
-      run: cppcheck . --force
+    - name: cppcheck
+      uses: deep5050/cppcheck-action@main
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN}}
+        force: enable
   test:
     runs-on: ubuntu-latest
 
