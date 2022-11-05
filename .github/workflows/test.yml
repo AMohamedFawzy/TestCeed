@@ -16,7 +16,7 @@ jobs:
     - name: Setup Ceedling
       run: |
         sudo apt-get install ruby
-        gem install ceedling
+        sudo gem install ceedling
 
     - name: Test
       run: ceedling
