@@ -1,0 +1,23 @@
+name: Ceedling Test
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+    
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Setup Ceedling
+      run: |
+        sudo apt-get install ruby
+        gem install ceedling
+
+    - name: Test
+      run: ceedling
+      
